@@ -74,6 +74,7 @@ Page({
     if (e.pingtuanOpenId) {
       _data.pingtuanOpenId = e.pingtuanOpenId
     }
+    debugger
     this.setData(_data);
   },
 
@@ -355,6 +356,7 @@ Page({
   },
   async fetchShops(){
     const res = await WXAPI.fetchShops()
+    debugger
     if (res.code == 0) {
       let shopIndex = this.data.shopIndex
       const shopInfo = wx.getStorageSync('shopInfo')

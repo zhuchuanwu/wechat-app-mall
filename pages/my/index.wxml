@@ -129,7 +129,7 @@
     </view>
   </navigator>-->
 
-  <view class="space"></view>
+  <!--<view class="space"></view>
   <navigator url="/pages/invoice/apply">
     <view class="menu-item">
       <view class="l">申请发票</view>
@@ -142,7 +142,7 @@
       <view class="l">发票记录</view>
       <image class="next" src="/images/icon/next.png"></image>
     </view>
-  </navigator>
+  </navigator>-->
 
   <view class="space"></view>
   <navigator url="/pages/select-address/index">
