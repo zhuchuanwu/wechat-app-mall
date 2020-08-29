@@ -27,7 +27,7 @@
       <view class="row-label">配送方式</view>
       <radio-group bindchange="radioChange">
         <label class="radio">
-          <radio value="kd" checked="{{peisongType == 'kd'}}" /> 快递
+          <radio value="kd" checked="{{peisongType == 'kd'}}" /> 货到付款
         </label>
         <label class="radio">
           <radio value="zq" checked="{{peisongType == 'zq'}}" /> 到店自取

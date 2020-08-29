@@ -66,8 +66,9 @@ Page({
     wx.showLoading({
       title: '加载中',
     })
+    const categoryId = this.data.categorySelected.name.indexOf('魏华')>-1?"162259":this.data.categorySelected.id;
     const res = await WXAPI.goods({
-      categoryId: this.data.categorySelected.id,
+      categoryId,
       page: 1,
       pageSize: 100000
     })
@@ -103,6 +104,7 @@ Page({
           break;
         }
       }
+    
       that.setData({
         categorySelected: {
           name: categoryName,
