@@ -224,9 +224,9 @@
     <image class="next" src="/images/icon/next.png"></image>
   </view> -->
 
-  <view class="space"></view>
+   <!-- <view class="space"></view>
   <view class="version">EastWorld v {{version}}</view>
-  <view class="space"></view>
+  <view class="space"></view>-->
 </view>
 
 <template is="apifmLogin" data="{{wxlogin: wxlogin}}" />
