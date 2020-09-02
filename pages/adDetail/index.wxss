@@ -1,0 +1,10 @@
+/* pages/adDetail/index.wxss */
+.adcontainer{
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.myimage {
+  width: 100vw;
+  height: auto;
+}

@@ -1,0 +1,6 @@
+<!--pages/adDetail/index.wxml-->
+<view class="adcontainer">
+
+   <image class="myimage" src="https://dcdn.it120.cc/2020/09/01/53d45f21-d2d6-4d7e-a042-a2b926be9b34.jpg" mode="widthFix"></image>
+
+</view>
