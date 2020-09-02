@@ -76,6 +76,9 @@
   <navigator wx:if="{{aliveRooms}}" url="/pages/live/index">
     <image class="live-banner" src="/images/live.jpg" mode="widthFix"></image>
   </navigator>
+    <view class="guanggao" wx:for="{{guanggao}}" wx:key="id"  bindtap="toGuanggaoDetailsTap" data="{{item}}" data-id="{{item.id}}">
+      <image src="{{item.picUrl}}" class="live-banner" mode="widthFix" lazy-load="true" />
+    </view>
   <!-- 秒杀开始 -->
   <block wx:if="{{miaoshaGoods && miaoshaGoods.length > 0}}">
     <van-divider contentPosition="center">限时秒杀</van-divider>
@@ -109,7 +112,7 @@
     </view>
   </block>
   <!-- 秒杀结束 -->
-  <van-divider wx:if="{{goodsRecommend.length > 0 && activeCategoryId == 0}}" contentPosition="center">爆品推荐</van-divider> 
+  <van-divider wx:if="{{goodsRecommend.length > 0 && activeCategoryId == 0}}" contentPosition="center">厂商展示</van-divider> 
   <view class="goods-container" wx:if="{{goodsRecommend.length > 0 && activeCategoryId == 0}}">
     <view class="goods-box" wx:for="{{goodsRecommend}}" wx:key="id" bindtap="toDetailsTap" data-id="{{item.id}}">
       <view class="img-box">

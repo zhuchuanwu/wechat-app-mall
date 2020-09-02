@@ -348,6 +348,11 @@
 .miaosha-container {
   padding: 0;
 }
+.guanggao {
+  
+  display: flex;
+  
+}
 .miaosha-goods-list {
   margin: 20rpx;
   background: #f6f6f6;

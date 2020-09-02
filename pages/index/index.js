@@ -5,7 +5,7 @@ const APP = getApp()
 // fixed首次打开不显示标题的bug
 APP.configLoadOK = () => {
   wx.setNavigationBarTitle({
-    title: "梦多校服商城"
+    title: "校服征订商城"
   })
 }
 
@@ -15,7 +15,7 @@ Page({
     goodsRecommend: [], // 推荐商品
     kanjiaList: [], //砍价商品列表
     pingtuanList: [], //拼团商品列表
-
+    guanggao:[],
     loadingHidden: false, // loading
     selectCurrent: 0,
     categories: [],
@@ -44,6 +44,12 @@ Page({
   toDetailsTap: function(e) {
     wx.navigateTo({
       url: "/pages/goods-details/index?id=" + e.currentTarget.dataset.id
+    })
+  },
+  toGuanggaoDetailsTap: function(e){
+    debugger
+    wx.navigateTo({
+      url: "/pages/adDetail/index?url=" + e.currentTarget.dataset.id
     })
   },
   tapBanner: function(e) {
@@ -138,9 +144,15 @@ Page({
         showCancel: false
       })
     } else {
+
       _data.banners = res1.data
     }
     this.setData(_data)
+    const res2 = await WXAPI.banners({
+      type: 'guanggao'
+    })
+    this.setData({guanggao:res2.data});
+    debugger
   },
   onShow: function(e){
     this.setData({
