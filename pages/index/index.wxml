@@ -76,8 +76,8 @@
   <navigator wx:if="{{aliveRooms}}" url="/pages/live/index">
     <image class="live-banner" src="/images/live.jpg" mode="widthFix"></image>
   </navigator>
-    <view class="guanggao" wx:for="{{guanggao}}" wx:key="id"  bindtap="toGuanggaoDetailsTap" data="{{item}}" data-id="{{item.id}}">
-      <image src="{{item.picUrl}}" class="live-banner" mode="widthFix" lazy-load="true" />
+    <view class="guanggao" wx:for="{{guanggao}}" wx:key="id" >
+      <image src="{{item.picUrl}}" class="live-banner" mode="widthFix"  bindtap="toGuanggaoDetailsTap" data-info="{{item}}" data-id="{{item.id}}" lazy-load="true" />
     </view>
   <!-- 秒杀开始 -->
   <block wx:if="{{miaoshaGoods && miaoshaGoods.length > 0}}">

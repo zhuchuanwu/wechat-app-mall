@@ -49,7 +49,7 @@ Page({
   toGuanggaoDetailsTap: function(e){
     debugger
     wx.navigateTo({
-      url: "/pages/adDetail/index?url=" + e.currentTarget.dataset.id
+      url: "/pages/adDetail/index?url=" + e.currentTarget.dataset.info.linkUrl
     })
   },
   tapBanner: function(e) {
