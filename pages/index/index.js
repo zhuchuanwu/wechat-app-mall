@@ -85,7 +85,7 @@ Page({
       }
     }
     wx.setNavigationBarTitle({
-      title: "梦多校服商城"
+      title: "校服征订商城"
     })
     this.initBanners()
     this.categories()
