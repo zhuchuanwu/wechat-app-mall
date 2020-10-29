@@ -119,6 +119,7 @@
       <view style='display:flex;'>
         <view class="goods-price">¥ {{item.minPrice}}</view>
         <view wx:if="{{item.originalPrice && item.originalPrice > 0}}" class="goods-price" style='color:#aaa;text-decoration:line-through'>¥ {{item.originalPrice}}</view>
+         <text class="goods-sells">已售:{{item.numberOrders}}</text>
       </view>
     </view>
   </view>
@@ -164,6 +165,7 @@
         <view class='tuan-price'>
           <text class='now'>￥ {{item.pingtuanPrice}}</text>
           <text class='original'>￥ {{item.originalPrice}}</text>
+          <text class="goods-sells">已售:{{item.numberOrders}}</text>
         </view>
         <view class="tuan-btn">
           <button type="warn" size="mini" bindtap="toDetailsTap" data-id="{{item.id}}">拼团</button>
@@ -185,6 +187,7 @@
       <view style='display:flex;'>
         <view class="goods-price">¥ {{item.minPrice}}</view>
         <view wx:if="{{item.originalPrice && item.originalPrice > 0}}" class="goods-price" style='color:#aaa;text-decoration:line-through'>¥ {{item.originalPrice}}</view>
+        <view class="goods-sells">已售:{{item.numberOrders}}</view>
       </view>
     </view>
   </view>

@@ -211,10 +211,12 @@ Page({
     for (var i = 0; i < res.data.length; i++) {
       goods.push(res.data[i]);
     }
+    debugger
     this.setData({
       loadingMoreHidden: true,
       goods: goods,
     });
+    debugger
   },
   getCoupons: function() {
     var that = this;
