@@ -255,7 +255,7 @@
           <view class="label">{{property.name}}</view>
           <view class="label-item-box">
             <view class="label-item {{item.active ? 'active' : '' }}" wx:for="{{property.childsCurGoods}}" wx:key="id" bindtap="labelItemTap" data-propertyindex="{{idx}}" data-propertychildindex="{{index}}">
-              {{item.name}}
+              {{item.name}} {{item.remark}}
             </view>
           </view>
         </block>
