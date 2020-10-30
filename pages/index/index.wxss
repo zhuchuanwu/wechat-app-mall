@@ -64,13 +64,15 @@
   z-index: 99;
 }
 .goodsDynamic {
-  position: absolute;
-  top: 320rpx;
-  left: 25rpx;
+  /* position: absolute; */
+  /* top: 320rpx; */
+  left: 25rpx; 
   width: 650rpx;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;  
   padding: 8rpx 16rpx;
+  margin-top: 20rpx;
+  margin-left: 25rpx;
   border-radius: 32rpx;
   font-size: 24rpx;  
 }

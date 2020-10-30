@@ -20,18 +20,7 @@
     <input type="text" placeholder="输入搜索关键词" value="{{name}}" bindinput="bindinput" bindconfirm="bindconfirm"></input>
     <image src="/images/icon/search.svg" bindtap="goSearch"></image>
   </view>
-  <view wx:if="{{goodsDynamic}}" class="goodsDynamic">
-    <swiper class="swiper2" autoplay circular vertical>
-      <navigator wx:for="{{goodsDynamic}}" wx:key="index" url="/pages/goods-details/index?id={{item.goodsId}}">
-        <swiper-item>
-          <view class="goodsDynamic-item">
-            <image mode="aspectFill" src="{{item.avatarUrl}}"></image>
-            <text>{{item.nick}} 购买了 {{item.goodsName}}</text>
-          </view>
-        </swiper-item>
-      </navigator>
-    </swiper>
-  </view>
+  
 </view>
 <view class="notice-box" wx:if="{{noticeList}}">
   <view class="notice">
@@ -73,6 +62,18 @@
       </view>
     </view>
   </block>
+  <view wx:if="{{goodsDynamic}}" class="goodsDynamic">
+    <swiper class="swiper2" autoplay circular vertical>
+      <navigator wx:for="{{goodsDynamic}}" wx:key="index" url="/pages/goods-details/index?id={{item.goodsId}}">
+        <swiper-item>
+          <view class="goodsDynamic-item">
+            <image mode="aspectFill" src="{{item.avatarUrl}}"></image>
+            <text>{{item.nick}} 购买了 {{item.goodsName}}</text>
+          </view>
+        </swiper-item>
+      </navigator>
+    </swiper>
+  </view>
   <navigator wx:if="{{aliveRooms}}" url="/pages/live/index">
     <image class="live-banner" src="/images/live.jpg" mode="widthFix"></image>
   </navigator>
