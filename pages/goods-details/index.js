@@ -8,7 +8,6 @@ import Poster from 'wxa-plugin-canvas/poster/poster'
 Page({
   data: {
     wxlogin: true,
-
     goodsDetail: {},
     hasMoreSelect: false,
     selectSize: SelectSizePrefix,
