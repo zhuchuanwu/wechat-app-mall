@@ -1,49 +1,18 @@
-# 微信小程序商城
+# react-native商城
 
-微信小程序商城，微信小程序微店，长期维护版本，欢迎大家踊跃提交贡献代码；
+react-native商城，react-native微店，长期维护版本，欢迎大家踊跃提交贡献代码；
 
 使用说明和常见问题，可参阅下面的说明，如还有疑问，可访问工厂官网 [https://www.it120.cc/](https://www.it120.cc/) 寻求帮助！
 
-新增直播带货支持，具体详见使用说明
 
-# 版本说明
 
-master 主线版本（8.x）为主力开发版本，激进的朋友可以选择使用该版本，可体验最新的尝鲜功能；
 
-7.x 分支为目前稳定版本，保守的用户可使用非主线分支：
-
-[https://github.com/EastWorld/wechat-app-mall/tree/7.x](https://github.com/EastWorld/wechat-app-mall/tree/7.x)
-
-# 今日头条/抖音小程序版本
-
-本项目的今日头条/抖音小程序版本，请移步至下面的地址：
-
-[https://github.com/EastWorld/tt-app-mall](https://github.com/EastWorld/tt-app-mall)
-
-## 扫码体验
-
-<img src="https://cdn.it120.cc/apifactory/2019/06/28/a8304003-3218-4a47-95cf-84d82ebdc07b.jpg" width="200px">
-
-## 详细配置/使用教程
-
-[https://www.it120.cc/help/ikfe2k.html](https://www.it120.cc/help/ikfe2k.html)
-
-**遇到使用问题？**
-
-[点击这里找答案，可用关键词搜索](https://www.it120.cc/help.html)
-
-## 其他开源模板
-
-| 舔果果小铺（升级版） | 面馆风格小程序 | AI名片 |
-| :------: | :------: | :------: |
-| <img src="https://dcdn.it120.cc/2020/03/22/d4a4abd1-ea23-42e0-a5f1-210e737ed841.jpg" width="200px"> | <img src="https://cdn.it120.cc/apifactory/2019/03/29/9e30cfe31eabcd218eb9c434f17e9295.jpg" width="200px"> | <img src="https://cdn.it120.cc/apifactory/2018/12/18/c2324da4eea91602f385db5b523b13ca.jpg" width="200px"> | 
-| [开源地址](https://github.com/gooking/TianguoguoXiaopu) | [开源地址](https://gitee.com/javazj/noodle_shop_procedures) | [开源地址](https://github.com/gooking/visitingCard) |
 
 ## 联系作者
 
 | 微信好友 | 支付宝好友 |
 | :------: | :------: |
-| <img src="https://cdn.it120.cc/apifactory/2019/07/03/a86f7e46-1dbc-42fe-9495-65403659671e.jpeg" width="200px"> | <img src="https://cdn.it120.cc/apifactory/2019/07/03/fda59aeb-4943-4379-93bb-92856740bd6a.jpeg" width="200px"> |
+| <img src="http://measure.3vyd.com//uPic/9451606119048_.pic_hd.jpg" width="200px"> | <img src="http://measure.3vyd.com//uPic/9471606119149_.pic.jpg" width="200px"> |
 
 ## 本项目使用了下面的组件，在此鸣谢
 
